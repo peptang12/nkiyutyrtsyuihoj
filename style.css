@@ -1,0 +1,156 @@
+img{
+    width: 500px;
+    
+}
+img.ko{
+    float: left;
+    width: 500px;
+    height: 900px;
+} 
+img.pro{
+    float : right;
+    width : 500px;
+    height: 900px;
+
+}
+img.bundle{
+    width: 300px;
+    height:300px;
+
+} /*
+.bundle:hover{
+    width: 250px;
+    height:350px;
+}*/
+
+li{
+    text-align: justify;
+    
+}
+a.poster{
+
+    padding: 0cap;
+    border-style: inset;
+    border-radius:5px;
+}
+a.linking me{
+    float: inline-start;
+
+}
+/*
+body{
+     background: linear-gradient(rgb(80, 205, 255),rgb(187, 172, 240));
+     
+} 
+ 
+ body{
+
+    background : url('images/comp\ face\ 1.png');
+ }
+ */
+ol.bucket,p.alleyoop,h1.bruge
+{
+    color:rgb(0, 0, 0);
+}
+div.wonderland{
+
+    float: right;
+}
+ul{
+    border-style: outset;
+color-scheme: rgb(207, 214, 206);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  
+}
+table,th,td{
+    border-style:inherit
+    width:25%;
+    border-radius: 20px;
+}
+tr:hover{
+    background-color:chartreuse;
+}
+
+.sky{
+    float:right ;
+
+}
+.container{
+    display: flex;
+    gap :3em;
+    justify-content :center;
+    padding :10px 30px;
+}
+
+
+.div1:hover,.div2:hover,.div3:hover{
+    background-color: rgb(57, 182, 255);
+    box-shadow: 5px 5px 25px #0000005f;
+    border-radius: 10px;
+}
+
+.div1, .div2, .div3{
+    width: 21em;
+    background-color: rgba(0, 225, 255, 0.349);
+    padding : 10px 30px;
+    height: 25em;
+    box shadow: 5px 5px 25px #0000005f;
+    border-radius: 10px;
+    float  :right;
+    display: block;
+}
+
+    {
+    @media screen and (max-width: 600px) {
+        .container,.div1, .div2, .div3 {
+          flex: 1 0 100%;
+        }
+      }
+} /*
+@media(max-width:1200px)
+.container{
+   height:100%;
+   flex-direction: row;
+}
+*/
+.bottle{
+    width: 21em;
+    background-color: rgb(0, 238, 255);
+    padding : 10px 30px;
+    height: 25em;
+    box shadow: 5px 5px 25px #0000005f;
+    border-radius: 10px;
+    float:top right;
+}  
+    .retro{
+
+        float: right;
+        text-decoration-color: crimson;
+
+    }
+    
+
+button{
+    text-transform: uppercase;
+    padding:10px 20px;
+
+}
+button:hover{
+    background-color: rgb(197, 11, 11);
+}
+/*
+div:hover{
+    background-color:rgb(63, 225, 223) ;*/
+}
+.enemy{
+    width : 100px;
+    height: 50px;
+}
+.yet{
+    text-transform: uppercase;
+}
+body{
+
+    background-color: lightblue;
+}
